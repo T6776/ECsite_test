@@ -3,7 +3,7 @@
 one:
   name: MyString
   genre_id: 1
-  image: MyString
+  image_id: MyString
   introduction: MyText
   price: 1
   is_active: false
@@ -11,7 +11,7 @@ one:
 two:
   name: MyString
   genre_id: 1
-  image: MyString
+  image_id: MyString
   introduction: MyText
   price: 1
   is_active: false
