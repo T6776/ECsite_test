@@ -1,0 +1,17 @@
+<h1>商品登録<h1>
+
+<%= form_with model: @item, local:true do |f| %>
+  <%= f.label "title","商品名" %>
+  <%= f.text_field :name %><br>
+
+  <%= f.label "introduction","商品説明文" %>
+  <%= f.text_area :introduction %><br>
+
+  <%= f.label "price","税抜き価格" %>
+  <%= f.text_field :price %><br>
+
+  <%= f.submit '登録' %>
+
+
+
+<% end %>
